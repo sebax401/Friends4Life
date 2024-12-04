@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.ecestaticos.com/siv_ZWe3dao7nlIloJPiFPlJX_o=/0x153:3009x1845/1338x751/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd26%2F4d5%2F0c3%2Fd264d50c3ee139bb56337f60fb1f10c1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1em;
+}
+
+#description {
+    margin: 2em 0;
+}
+
+#download {
+    margin: 2em 0;
+}
+
+#desktop {
+    display: none;
+}
+
+#mobile .download-button {
+    display: block;
+    margin: 2em auto;
+    padding: 1em 2em;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    #desktop {
+        display: block;
+    }
+    #mobile {
+        display: none;
+    }
+}
+
+#qr{
+    height: 300px;
+    width: 300px;
+}
+
+#formulario{
+    margin-top: 9%;
+    padding: 50px 10px 50px 10px;
+    color: black;
+    border: solid  #4caf50;
+    background-color:  #4caf50;
+    margin-left: 40%;
+    width: 20%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#letras{
+    color: white;
+}
